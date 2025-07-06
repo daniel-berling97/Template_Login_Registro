@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: rgb(91, 1, 175);
+    transition: 2s ease-in-out;
+}
+
+.container{
+    background-color: rgba(23, 24, 24, 0.452);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    width: 75vh;
+    height: 480px;
+    margin-top: 90px;
+    transition: background 1s ease-in-out;
+}
+
+.container:hover{
+    background-color: rgba(23, 24, 24, 0.726);
+    border: 1px solid rgb(44, 3, 90);
+    transition: box-shadow 1s ease-in;
+    transition: background 1s ease-in-out;
+    box-shadow: 1px 1px 4px 2px rgb(163, 3, 226),
+    -1px -2px 4px 2px rgb(38, 0, 70);
+    animation: show_shadow 10s infinite;
+}
+
+/* login */
+
+.login{
+    display: block;
+}
+
+form{
+    margin: 2px;
+    padding: 2px;
+}
+
+.d-txt{
+    font-family: "Anton", sans-serif;
+    text-shadow: 1px 1px 20px rgb(79, 4, 82);
+    text-indent: 12px;
+    font-style: normal;
+    margin: 12px;
+}
+
+.d-input{
+    font-family: "Anton", sans-serif;
+    margin: 15px;
+    padding: 12px;
+}
+
+.d-input input{
+    margin: 7px;
+    
+}
+
+.d-btns{
+    margin: 12px;
+}
+
+.d-btns button{
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type="email"]{
+background-color: rgba(24, 2, 44, 0);
+text-align: center;
+border-radius: 2px;
+color: white;
+border: none;
+border-bottom: 2px solid white;
+outline: none;
+width: 60vh;
+height: 35px;
+}
+
+input[type="email"]:focus{
+background-color: rgba(20, 2, 27, 0.425);
+border-radius: 5px;
+color: rgb(253, 253, 253);
+border: 2px solid blue;
+transition: 1s all ease-in-out;
+}
+
+input[type="password"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 60vh;
+    height: 35px;
+}
+    
+input[type="password"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid blue;
+    transition: 1s all ease-in-out;
+}
+
+.btn{
+    background-color: rgba(12, 1, 22, 0.548);
+    box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+    border: none;
+    border-radius: 12px;
+    width: 40vh;
+    height: 35px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgba(5, 0, 10, 0.884);
+    box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+    -2px -2px 3px 1px rgb(61, 0, 61);
+    font-weight: bold;
+    border: 2p9ç
+    1px solid rgb(48, 1, 66);
+    animation: all 2s show-animation infinite;
+}
+
+/* registro */
+
+.register{
+    display: none;
+}
+
+form{
+    margin: 2px;
+    padding: 2px;
+}
+
+.d-txt{
+    margin: 12px;
+}
+
+.d-input{
+    margin: 15px;
+    padding: 12px;
+}
+
+.d-input input{
+    margin: 7px;
+    
+}
+
+.d-btns{
+    margin: 12px;
+}
+
+.d-btns button{
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type="email"]{
+background-color: rgba(24, 2, 44, 0);
+text-align: center;
+border-radius: 2px;
+color: white;
+border: none;
+border-bottom: 2px solid white;
+outline: none;
+width: 60vh;
+height: 35px;
+}
+
+input[type="email"]:focus{
+background-color: rgba(20, 2, 27, 0.425);
+border-radius: 5px;
+color: rgb(253, 253, 253);
+border: 2px solid blue;
+transition: 1s all ease-in-out;
+}
+
+input[type="password"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 60vh;
+    height: 35px;
+}
+    
+input[type="password"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid blue;
+    transition: 1s all ease-in-out;
+}
+
+.btn{
+    background-color: rgba(12, 1, 22, 0.548);
+    box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+    border: none;
+    border-radius: 12px;
+    width: 40vh;
+    height: 35px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgba(5, 0, 10, 0.884);
+    box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+    -2px -2px 3px 1px rgb(61, 0, 61);
+    font-weight: bold;
+    border: 2p9ç
+    1px solid rgb(48, 1, 66);
+    animation: all 2s show-animation infinite;
+}
+

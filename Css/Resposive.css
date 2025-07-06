@@ -1,0 +1,808 @@
+/* tela de monitores */
+
+@media screen and (min-width:1280px) and (max-width:1366px) {
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(23, 24, 24, 0.452);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        width: 75vh;
+        height: 427px;
+        margin-top: 140px;
+        transition: background 1s ease-in-out;
+    }
+    
+    .container:hover{
+        background-color: rgba(23, 24, 24, 0.877);
+        border: 1px solid rgb(44, 3, 90);
+        transition: box-shadow 1s ease-in;
+        transition: background 1s ease-in-out;
+        box-shadow: 1px 1px 4px 2px rgb(163, 3, 226),
+        -1px -2px 4px 2px rgb(38, 0, 70);
+        animation: show_shadow 10s infinite;
+    }
+    
+    .d-txt{
+        margin: 10px;
+    }
+    
+    .d-input{
+        margin: 12px;
+        padding: 10px;
+    }
+    
+    .d-input input{
+        margin: 5px;
+        
+    }
+    
+    .d-btns{
+        margin: 5px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 60vh;
+    height: 35px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid blue;
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 60vh;
+        height: 35px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid blue;
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 40vh;
+        height: 35px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+        animation: all 2s show-animation infinite;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        min-height: 100vh;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(23, 24, 24, 0.452);
+        text-shadow: 1px 1px 1px rgb(185, 185, 185);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 60vh;
+        max-height: 350px;
+        margin-top: 165px;
+        transition: background 1s ease-in-out;
+    }
+    
+    .container:hover{
+        background-color: rgba(23, 24, 24, 0.726);
+        border: 1px solid rgb(44, 3, 90);
+        transition: box-shadow 1s ease-in;
+        transition: background 1s ease-in-out;
+        box-shadow: 1px 1px 4px 2px rgb(163, 3, 226),
+        -1px -2px 4px 2px rgb(38, 0, 70);
+        animation: show_shadow 10s infinite;
+    }
+    
+    .d-txt{
+        margin: 5px;
+    }
+    
+    .d-input{
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .d-input input{
+        margin: 5px;
+        
+    }
+    
+    .d-btns{
+        margin: 1px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 50vh;
+    height: 20px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid blue;
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 50vh;
+        height: 20px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid blue;
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 35vh;
+        height: 35px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+        animation: all 2s show-animation infinite;
+    }
+
+}
+
+/* tela de tablets */
+
+@media screen and (min-width:1024px) and (max-width:1080px) {
+  
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        min-height: 100vh;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(23, 24, 24, 0.452);
+        text-shadow: 1px 1px 1px rgb(185, 185, 185);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 60vh;
+        max-height: 350px;
+        margin-top: 165px;
+        transition: background 1s ease-in-out;
+    }
+    
+    .container:hover{
+        background-color: rgba(23, 24, 24, 0.726);
+        border: 1px solid rgb(44, 3, 90);
+        transition: box-shadow 1s ease-in;
+        transition: background 1s ease-in-out;
+        box-shadow: 1px 1px 4px 2px rgb(163, 3, 226),
+        -1px -2px 4px 2px rgb(38, 0, 70);
+        animation: show_shadow 10s infinite;
+    }
+    
+    .d-txt{
+        margin: 5px;
+    }
+    
+    .d-input{
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .d-input input{
+        margin: 5px;
+        
+    }
+    
+    .d-btns{
+        margin: 1px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    min-width: 50vh;
+    height: 35px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid rgb(79, 5, 129);
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 50vh;
+        max-height: 30px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid rgb(92, 4, 151);
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 35vh;
+        height: 30px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+    }
+
+}
+
+/* tela de celulares */
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        width: 100% auto;
+        height: 100vh;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(5, 5, 5, 0.603);
+        text-shadow: 1px 1px 1px rgb(185, 185, 185);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 50vh;
+        max-height: 373px;
+        margin-top: 140px;
+    }
+    
+    
+    .d-txt{
+        margin: 5px;
+    }
+    
+    .d-input{
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .d-input input{
+        margin: 5px;
+        
+    }
+    
+    .d-btns{
+        margin: 1px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 40vh;
+    height: 35px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid rgb(79, 5, 129);
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 40vh;
+        max-height: 30px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid rgb(92, 4, 151);
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 35vh;
+        height: 30px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+    }
+
+}
+
+@media screen and (min-width:720px) and (max-width:800px) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        width: 100% auto;
+        height: 100vh;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(5, 5, 5, 0.603);
+        text-shadow: 1px 1px 1px rgb(185, 185, 185);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 50vh;
+        max-height: 370px;
+        margin-top: 130px;
+    }
+    
+    
+    .d-txt{
+        margin: 5px;
+    }
+    
+    .d-input{
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .d-input input{
+        margin: 5px;
+        
+    }
+    
+    .d-btns{
+        margin: 1px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 40vh;
+    height: 35px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid rgb(79, 5, 129);
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 40vh;
+        max-height: 30px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid rgb(92, 4, 151);
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 35vh;
+        height: 30px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+    }
+
+}
+
+
+@media screen and (min-width:500px) and (max-width:720px) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        width: 100% auto;
+        height: 100vh;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(5, 5, 5, 0.603);
+        text-shadow: 1px 1px 1px rgb(185, 185, 185);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 50vh;
+        max-height: 363px;
+        margin-top: 155px;
+    }
+    
+    
+    .d-txt{
+        margin: 5px;
+    }
+    
+    .d-input{
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .d-input input{
+        margin: 5px;
+        
+    }
+    
+    .d-btns{
+        margin: 1px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 40vh;
+    height: 35px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid rgb(79, 5, 129);
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 40vh;
+        max-height: 30px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid rgb(92, 4, 151);
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 35vh;
+        height: 30px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: url('/Assets/23339353-minimalista-fluido-borrado-gradiente-fundo-na-moda-neon-pano-de-fundo-para-poster-folheto-bandeira-aterrissagem-pagina-e-noite-clube-vetor.jpg');
+        background-repeat: none;
+        background-size: cover;
+        width: 100% auto;
+        height: 100vh;
+        color: rgb(91, 1, 175);
+    }
+
+
+    .container{
+       
+        background-color: rgba(15, 1, 1, 0.603);
+        text-shadow: 1px 1px 1px rgb(185, 185, 185);
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 40vh;
+        max-height: 360px;
+        margin-top: 150px;
+    }
+    
+    
+    .d-txt{
+        margin: 2px;
+    }
+    
+    .d-input{
+        margin: 2px;
+        padding: 5px;
+    }
+    
+    .d-input input{
+        margin: 2px;
+        
+    }
+    
+    .d-btns{
+        margin: 1px;
+    }
+    
+    .d-btns button{
+        margin: 5px;
+
+    }
+    
+    input[type="email"]{
+    background-color: rgba(24, 2, 44, 0);
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 35vh;
+    height: 35px;
+    }
+    
+    input[type="email"]:focus{
+    background-color: rgba(20, 2, 27, 0.425);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    border: 2px solid rgb(79, 5, 129);
+    transition: 1s all ease-in-out;
+    }
+    
+    input[type="password"]{
+        background-color: rgba(24, 2, 44, 0);
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        width: 35vh;
+        max-height: 30px;
+    }
+        
+    input[type="password"]:focus{
+        background-color: rgba(20, 2, 27, 0.425);
+        border-radius: 5px;
+        color: rgb(253, 253, 253);
+        border: 2px solid rgb(92, 4, 151);
+        transition: 1s all ease-in-out;
+    }
+    
+    .btn{
+        background-color: rgba(12, 1, 22, 0.548);
+        box-shadow: 1px 1px 4px 1px rgb(88, 2, 114);
+        border: none;
+        border-radius: 12px;
+        width: 35vh;
+        height: 30px;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: rgba(5, 0, 10, 0.884);
+        box-shadow: 1px 1px 4px 1px rgb(90, 0, 163),
+        -2px -2px 3px 1px rgb(61, 0, 61);
+        font-weight: bold;
+        border: 2p9ç
+        1px solid rgb(48, 1, 66);
+    }
+
+}

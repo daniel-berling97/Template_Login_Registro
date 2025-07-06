@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---* Css Personalizados *--->
+    <link rel="stylesheet" href="/Css/Styles.css">
+    <link rel="stylesheet" href="/Css/Resposive.css">
+    <!---* Importando Fontes da Google *--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Chakra+Petch:wght@400;700&family=Poller+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!---* Login *--->
+        <div class="login" id="login">
+            <div class="d-txt">
+                <h1>L O G I N</h1>
+                <p>Para Continuar precisará entrar em uma conta.</p>
+                <br><hr>
+            </div>
+            <form action="#" id="form-login">
+                <div class="d-input">
+                    <label>Email de Usuário</label><br>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="d-input">
+                    <label>Senha de Usuário</label><br>
+                    <input type="password" id="login-password" required>
+                </div>
+                <div class="d-btns">
+                    <button class="btn" id="btn-L" type="submit">Entrar</button><br>
+                    <button class="btn" id="btn-R">Criar Conta</button><br>
+                </div>
+            </form>
+        </div>
+         <!---* Registro *--->
+        <div class="register" id="register">
+            <div class="d-txt">
+                <h1>REGISTRAR-SE</h1>
+                <p>Para Continuar precisará criar uma conta.</p>
+                <br><hr>
+            </div>
+            <form action="#" id="form-register">
+                <div class="d-input">
+                    <label>Email de Usuário</label><br>
+                    <input type="email" id="reg-email" required>
+                </div>
+                <div class="d-input">
+                    <label>Senha de Usuário</label><br>
+                    <input type="password" id="reg-pass" required>
+                </div>
+                <div class="d-btns">
+                    <button class="btn" type="submit">Registrar</button><br>
+                    <button class="btn" id="btn-LR">Voltar ao Login</button><br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!---* Script Externo *--->
+    <script src="/Js/init.js"></script>
+</body>
+</html>
