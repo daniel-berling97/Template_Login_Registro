@@ -26,9 +26,4 @@ Instale a extensão Live Server:
 Vá até a aba de extensões (ou pressione Ctrl+Shift+X).
 Procure por "Live Server" e clique em "Instalar".
 Após a instalação, clique com o botão direito no arquivo index.html e selecione "Open with Live Server".
-O template será aberto em seu navegador. Você pode personalizá-lo conforme suas necessidades.
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-Licença
-Este projeto é licenciado sob a Licença MIT.
+O template será aberto em seu navegador. 
