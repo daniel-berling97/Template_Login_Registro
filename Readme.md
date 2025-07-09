@@ -13,10 +13,10 @@ Este projeto é um template simples e responsivo para telas de login e registro.
 Design responsivo para diferentes dispositivos
 Formulários de login e registro
 Estrutura simples e fácil de personalizar
-Tecnologias Utilizadas
-HTML
-CSS
-JavaScript (opcional, caso tenha interatividade)
+Tecnologias Utilizadas:
+HTML,
+CSS e
+JavaScript.
 
 **`Como Usar`**
 
